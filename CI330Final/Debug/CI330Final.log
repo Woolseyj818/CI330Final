@@ -1,0 +1,3 @@
+﻿  Source.cpp
+c:\users\mavmi\source\repos\ci330final\ci330final\source.cpp(17): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  CI330Final.vcxproj -> C:\Users\mavmi\source\repos\CI330Final\Debug\CI330Final.exe
