@@ -1,3 +1,0 @@
-﻿  Source.cpp
-c:\users\mavmi\source\repos\lightswitchrandomizer\lightswitchrandomizer\source.cpp(17): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  LightSwitchRandomizer.vcxproj -> C:\Users\mavmi\source\repos\LightSwitchRandomizer\Debug\LightSwitchRandomizer.exe
