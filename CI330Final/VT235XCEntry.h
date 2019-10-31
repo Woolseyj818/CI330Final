@@ -1,4 +1,6 @@
 #pragma once
+#include"SensorID.h"
+
 class VT235XCEntry
 {
 	//dataWriter << "Sensor ID,Sensor IP Address, Pipe Route, Flow Level, Flow Speed, Viscosity, Temperature, GPS Position, Battery Level, Free Space on Hard Drive, WiFi Signal";
@@ -15,6 +17,7 @@ public:
 	int FreeSpace;
 	int WifiSignal;
 	VT235XCEntry();
+	VT235XCEntry(SensorID sid);
 	~VT235XCEntry();
 };
 
