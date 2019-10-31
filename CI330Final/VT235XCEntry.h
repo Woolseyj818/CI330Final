@@ -10,14 +10,14 @@ public:
 	int IP;
 	int route;
 	int flowLevel;
-	int Viscosity;
-	int Temperature;
-	int GPSPos;
-	int BatterPct;
-	int FreeSpace;
-	int WifiSignal;
-	VT235XCEntry();
-	VT235XCEntry(SensorID sid);
+	int viscosity;
+	int temperature;
+	int gpsPos;
+	int batterPct;
+	int freeSpace;
+	int wifiSignal;
+	VT235XCEntry(int id = 0, int ip = 0, int route = 0, int flowLevel = 0, int viscosity = 0, int temperature = 0, int gpsPos = 0, int batteryPct = 0, int freeSpace = 0, int wifiSignal = 0);
+	VT235XCEntry(SensorID sid, int route = 0, int flowLevel = 0, int viscosity = 0, int temperature = 0, int gpsPos = 0, int batteryPct = 0, int freeSpace = 0, int wifiSignal = 0);
 	~VT235XCEntry();
 };
 

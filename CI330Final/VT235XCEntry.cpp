@@ -2,12 +2,6 @@
 
 
 
-VT235XCEntry::VT235XCEntry()
-{
-
-}
-
-
 VT235XCEntry::~VT235XCEntry()
 {
 	

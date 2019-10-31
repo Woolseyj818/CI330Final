@@ -2,7 +2,7 @@
 
 
 //Creates an array of IDS
-SensorID * SensorUtil::generateID(int numIDs, int seed)
+SensorID* SensorUtil::generateID(int numIDs, int seed)
 {
 	if (numIDs <= 0) {
 		return nullptr;
@@ -23,4 +23,15 @@ SensorID * SensorUtil::generateID(int numIDs, int seed)
 		}
 	}
 	return ids;
+}
+
+VT235XCEntry SensorUtil::genSensorData(SensorID sid, int seed)
+{
+	if (seed = 0) {
+		seed = time(NULL);
+	}
+	srand(seed);
+	VT235XCEntry v;
+
+	return v;
 }

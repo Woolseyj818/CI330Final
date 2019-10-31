@@ -5,4 +5,5 @@
 
 namespace SensorUtil {
 	SensorID* generateID(int numIDs, int seed = 0);
+	VT235XCEntry genSensorData(SensorID sid, int seed = 0);
 }
