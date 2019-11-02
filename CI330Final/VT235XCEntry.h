@@ -6,6 +6,7 @@ class VT235XCEntry
 	//dataWriter << "Sensor ID,Sensor IP Address, Pipe Route, Flow Level, Flow Speed, Viscosity, Temperature, GPS Position, Battery Level, Free Space on Hard Drive, WiFi Signal";
 	
 public:
+	SensorID sid;
 	int ID;
 	int IP;
 	int route;

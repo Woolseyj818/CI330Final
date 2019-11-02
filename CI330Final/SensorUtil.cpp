@@ -1,5 +1,6 @@
 #include "SensorUtil.h"
 
+enum Route {SPOKAN, GREATFALLS};
 
 //Creates an array of IDS
 SensorID* SensorUtil::generateID(int numIDs, int seed)
@@ -25,7 +26,7 @@ SensorID* SensorUtil::generateID(int numIDs, int seed)
 	return ids;
 }
 
-VT235XCEntry SensorUtil::genSensorData(SensorID sid, int seed)
+VT235XCEntry SensorUtil::genVTEntry(SensorID sid, int seed = 0)
 {
 	if (seed = 0) {
 		seed = time(NULL);
@@ -34,4 +35,10 @@ VT235XCEntry SensorUtil::genSensorData(SensorID sid, int seed)
 	VT235XCEntry v;
 
 	return v;
+}
+
+PSX25Entry SensorUtil::genPSXEntry(SensorID sid, VT235XCEntry * downline, int numDownlineSensors, int seed) {
+	PSX25Entry px;
+	
+	return px;
 }

@@ -24,12 +24,24 @@
     <ClCompile Include="PSX25Entry.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="SensorID.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SensorUtil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="VT235XCEntry.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="PSX25Entry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SensorID.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SensorUtil.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

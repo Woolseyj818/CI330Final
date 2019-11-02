@@ -116,11 +116,15 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="PSX25Entry.cpp" />
+    <ClCompile Include="SensorID.cpp" />
+    <ClCompile Include="SensorUtil.cpp" />
     <ClCompile Include="Source.cpp" />
     <ClCompile Include="VT235XCEntry.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="PSX25Entry.h" />
+    <ClInclude Include="SensorID.h" />
+    <ClInclude Include="SensorUtil.h" />
     <ClInclude Include="VT235XCEntry.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
